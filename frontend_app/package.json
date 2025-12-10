@@ -11,7 +11,11 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "ng:test": "npm run test --prefix ./angular_vitest_demo",
+    "ng:test:ui": "npm run test:ui --prefix ./angular_vitest_demo",
+    "ng:test:watch": "npm run test:watch --prefix ./angular_vitest_demo",
+    "ng:typecheck": "npm run typecheck --prefix ./angular_vitest_demo"
   },
   "eslintConfig": {
     "extends": "react-app"
